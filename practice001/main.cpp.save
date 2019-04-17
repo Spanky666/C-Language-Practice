@@ -9,15 +9,15 @@ int main()
 {
     int inputNum[]={0,0,0};
 
-    for(int i =0;i<=2;i++){
+    for(int i =1;i<=2;i++){
     cout << "Input"<<i+1<<":";
     cin  >> inputNum[i];
-
+    cout<<endl;
     }
-    for(int i =0;i<=2;i++){
+    for(int i =1;i<=2;i++){
     cout<<"Result"<<i+1<<":";
     TriFun(inputNum[i]);
-    cout<<endl;
+
     }
     return 0;
 }
@@ -57,7 +57,7 @@ void TriFun(int inputNum){
         //¿é¥X
         if(quotient == 0 && inputNum != 0){
                 flag =false;
-                for(int i =pointer; i>=0;i--) cout<<arr[i];
+                for(int i =pointer; i>=0;i--)0 cout<<arr[i];
             }
          if(quotient == 1 && inputNum != 1){
                 flag =false;
